@@ -1,0 +1,14 @@
+{
+  "name": "1.commit",
+  "version": "1.0.0",
+  "description": "This project is just a demo how to use git\t\r // git init\r // git add\r // git commit\r // git diff\r // git log\r // git show\r // git restore\r // git restore --staged\r // git checkout chuyển đến thư mục master or feature/dog-class\r // git branch để show các cái thư mục và biết mình đang ở đâu\r // git checkout -b tạo 1 cái mới example feature/dog-class\r // git branch -D feature/dog-class xóa đi cái thư mục feature này\r // git merge để nhập 2 thư mục làm 1\r // git reset --soft < to commit >để quay lại trạng thái trước commit (commit mới nhất)\r // git mixed --soft < to commit> để quay lại trạng thái trước add\r // git reset --hard < to commit >xóa commit \r // git revert < commit > (bất kỳ commit nào)\r // .gitignore",
+  "main": "cat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0"
+  }
+}

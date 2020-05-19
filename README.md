@@ -12,6 +12,8 @@ This project is just a demo how to use git
 // git checkout -b tạo 1 cái mới example feature/dog-class
 // git branch -D feature/dog-class xóa đi cái thư mục feature này
 // git merge để nhập 2 thư mục làm 1
-// git reset --soft để quay lại trạng thái trước commit
-// git mixed --soft để quay lại trạng thái trước add
-// git reset --hard xóa commit 
+// git reset --soft < to commit >để quay lại trạng thái trước commit (commit mới nhất)
+// git mixed --soft < to commit> để quay lại trạng thái trước add
+// git reset --hard < to commit >xóa commit 
+// git revert < commit > (bất kỳ commit nào)
+// .gitignore
