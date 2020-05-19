@@ -1,4 +1,4 @@
-function cat(){
+function cat(name){
 	this.stomach=[]
 	this.name=name
 }
@@ -6,4 +6,4 @@ function cat(){
 cat.prototype.eat=function(mouse){
 	this.stomach.push(mouse)
 }
-module.exports=Cat 
+module.exports=cat 
